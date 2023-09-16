@@ -56,12 +56,12 @@ public class ClientState: MonoBehaviour
         }
 
         //Check to see if we are pressing down to sneak
-        if(Input.GetKeyDown(KeyCode.LeftAlt))
+        if(Input.GetKeyDown(KeyCode.C))
         {
             Debug.Log("We are sneaking");
             _heroineController.HeroineSneak(); 
         }
-       if(Input.GetKeyUp(KeyCode.LeftAlt))
+       if(Input.GetKeyUp(KeyCode.C))
         {
             _heroineController.HeroineWalk();
             _heroineController.HeroineStand(); 

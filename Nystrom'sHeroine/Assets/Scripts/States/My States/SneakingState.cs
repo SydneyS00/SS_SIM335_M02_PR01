@@ -15,15 +15,12 @@ public class SneakingState : MonoBehaviour, IHeroineState
         }
 
         _heroineController.CurrentSpeed = _heroineController.sneakSpeed;
+         
+        //Squish it to look like it is sneaking
+        _heroineController.transform.localScale = newScale;
+        //Slowing it down
+        _heroineController.heroineRB.transform.Translate(0.25f * Time.deltaTime, 0, 0);
         
-        //Squashing it to look like its sneaking 
-        if(Input.GetKey(KeyCode.LeftAlt))
-        {
-            //Squish
-            _heroineController.transform.localScale = newScale;
-            //Slowing it down
-            _heroineController.heroineRB.transform.Translate(0.25f * Time.deltaTime, 0, 0);
-        }
     }
 
    
