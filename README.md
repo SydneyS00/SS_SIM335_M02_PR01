@@ -8,7 +8,7 @@ https://sydneys00.github.io/SS_SIM335_M02_PR01/
 - 'S' to dive while jumping
 - 'A' and 'D' to walk left or right
 - 'T' to shrink
-- 'Alt' to sneak 
+- 'C' to sneak 
 
 # My Chart
 
