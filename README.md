@@ -11,4 +11,5 @@ https://sydneys00.github.io/SS_SIM335_M02_PR01/
 - 'C' to sneak 
 
 # My Chart
+![IMG_5435](https://github.com/SydneyS00/SS_SIM335_M02_PR01/assets/77943952/6df015fb-4457-403d-822c-b510f3456337)
 
